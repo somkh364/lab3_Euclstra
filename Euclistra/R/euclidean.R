@@ -1,4 +1,16 @@
-
+#' Euclidean algorithm for GCD.
+#' 
+#' The function returns the greatest common divisor of two numbers.
+#' @param a numeric.
+#' @param b numeric.
+#'
+#' @return If input data is numeric or integer then 
+#' the output will be a integer otheriwise it will return an error.
+#' @export
+#' @references \href{https://en.wikipedia.org/wiki/Euclideanalgorithm}{Euclideanalgorithm}
+#'
+#' @examples euclidean(100, 1000)
+#' 
 euclidean <-
   function(a,b) {
     
