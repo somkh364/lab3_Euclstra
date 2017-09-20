@@ -1,5 +1,5 @@
 language: r
 cache: packages
 before_install: 
-  _ cd Euclistra
+  _ cd LAB3
     
