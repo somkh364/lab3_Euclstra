@@ -31,3 +31,6 @@ file KEYWORDS in the R documentation directory
 Optional links to other man pages, e.g.
 \code{\link[<pkg>:<pkg>-package]{<pkg>}}
 }
+\examples{euclidean(100, 1000)
+dijkstra(wiki_graph, 1)
+}
