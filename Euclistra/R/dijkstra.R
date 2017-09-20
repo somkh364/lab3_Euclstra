@@ -10,8 +10,6 @@
 #' @export
 #' @references \href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Dijkstra Algorithm}
 #' 
-#' @examples dijkstra(wiki_graph, 1)
-#' 
 dijkstra<- function(graph,init_node){
   
   data1<- as.vector(graph$v1)
