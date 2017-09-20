@@ -8,8 +8,6 @@
 #' the output will be a integer otheriwise it will return an error.
 #' @export
 #' @references \href{https://en.wikipedia.org/wiki/Euclideanalgorithm}{Euclideanalgorithm}
-#'
-#' @examples euclidean(100, 1000)
 #' 
 euclidean <-
   function(a,b) {
